@@ -10,6 +10,10 @@ possible, and refactoring safely while the requirements change underneath you.
 ---
 
 ### Overview video (40 seconds)
+
+
+https://github.com/user-attachments/assets/09151f0d-bd59-4052-b088-d0a72f7883d1
+
  
 <video src="docs/tdd-red-green-refactor.mp4" controls loop muted width="720"></video>
  
@@ -100,11 +104,10 @@ green instantly.
 
 ## The rules of the game
 
-1. **No production code without a failing test first.**
+1. **Do not write code without a failing test first.**
 2. Write the **smallest** test that fails, and make sure it fails for the right reason.
 3. Write the **simplest** code that makes it pass. Hardcoding is allowed!
 4. Once green, **refactor**: remove duplication, improve names. Tests must stay green.
-5. Say the phase out loud: "we're red", "we're green", "we're refactoring".
 
 ### Working in pairs (ping-pong)
 
