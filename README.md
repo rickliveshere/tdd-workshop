@@ -9,6 +9,13 @@ possible, and refactoring safely while the requirements change underneath you.
 
 ---
 
+### Overview video (40 seconds)
+ 
+<video src="docs/tdd-red-green-refactor.mp4" controls loop muted width="720"></video>
+ 
+If the video doesn't play above, [open it directly](docs/tdd-red-green-refactor.mp4).
+
+
 ## Getting started
 
 ### Option 1: Dev container (recommended)
