@@ -1,0 +1,30 @@
+{
+  "name": "TDD FizzBuzz Workshop (Python + TypeScript)",
+  "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.15.2"
+    },
+    "ghcr.io/devcontainers/features/node:2.1.1": {
+      "version": "24"
+    }
+  },
+  "postCreateCommand": "pip install -r python/requirements-dev.txt && cd typescript && npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "vitest.explorer"
+      ],
+      "settings": {
+        "python.testing.pytestEnabled": true,
+        "python.testing.unittestEnabled": false,
+        "python.testing.pytestArgs": ["python/tests"],
+        "python.defaultInterpreterPath": "/usr/local/python/current/bin/python",
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 500
+      }
+    }
+  }
+}
