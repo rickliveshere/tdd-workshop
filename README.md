@@ -1,4 +1,4 @@
-# TDD Workshop: FizzBuzz with a Twist
+# TDD Workshop: FizzBuzz
 
 A 45-minute, hands-on introduction to Test-Driven Development. Choose **Python** or
 **TypeScript**; both are set up in the same dev container.
